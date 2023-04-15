@@ -7,14 +7,14 @@ exports.sendMail = async (to="bar@example.com", name="User Name", forRole="user"
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'admin@deekshithsn.live ', // generated ethereal user
-      pass: '****', // generated ethereal password
+      user: 'baller@odyykee-alex.com ', // generated ethereal user
+      pass: 'Makavelli7$', // generated ethereal password
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: '"Admin" <admin@deekshithsn.live>', // sender address
+    from: '"Admin" <baller@odyykee-alex.com>', // sender address
     to, // list of receivers
     subject: "Booking Confirmation ✔", // Subject line
     text: "Your booking is confirmed. Somebody from the team contact you soon.", // plain text body
